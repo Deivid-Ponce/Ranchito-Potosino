@@ -1,0 +1,27 @@
+$display: flex;
+$backColor: #696900;
+$colorNosotros: #696956;
+$comodin: center;
+$fWrap: wrap;
+$porcentajeW: 100%;
+$colorW: #ffffff;
+
+@mixin page {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@mixin estilo_resultado {
+    background-color: $colorNosotros;
+    color: $colorW;
+    font-weight: 700;
+    display: $display;
+    flex-wrap: $fWrap;
+}
+
+@mixin estilo_lista_productos {
+    display: $display;
+    flex-wrap: $fWrap;
+    text-align: $comodin;
+}

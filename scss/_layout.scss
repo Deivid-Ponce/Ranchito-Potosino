@@ -1,0 +1,282 @@
+* {
+    @include page;
+}
+
+.contenedor__header {
+
+    .descuento__header {
+        display: $display;
+        align-items: $comodin;
+        background-color: $backColor;
+        font-size: 1.5rem;
+        padding: .3rem;
+        box-sizing: border-box;
+        text-align: $comodin;
+        color: $colorW;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+    }
+
+    .titulo__header {
+        font-size: 1.2rem;
+        text-align: $comodin;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        letter-spacing: 0.25em;
+    }
+
+    .nav__header {
+        background-color: #f2f2f2;
+        height: 10vh;
+        display: $display;
+        align-items: $comodin;
+
+        a {
+            text-decoration: none;
+            color: $colorNosotros;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+            transition: 300ms;
+            text-shadow: rgb(0, 0, 0) 2 -1px;
+            color: $colorNosotros;
+            font-weight: bold;
+        }
+
+    }
+
+    .banner__header {
+        max-width: $porcentajeW;
+        text-align: $comodin;
+
+        img {
+            width: 80%;
+            height: 80vh;
+
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 3.5vh;
+            margin-bottom: 3.5vh;
+            color: #5e5e5e;
+            letter-spacing: .2rem;
+        }
+
+        p:last-child {
+            margin-top: 8vh;
+            margin-bottom: 8vh;
+            letter-spacing: .2rem;
+        }
+    }
+
+}
+
+main {
+    max-width: $porcentajeW;
+
+    h1 {
+        text-align: $comodin;
+        margin-bottom: 15vh;
+    }
+
+    .main__products {
+        max-width: 80%;
+        display: $display;
+        flex-wrap: $fWrap;
+        text-align: $comodin;
+        box-sizing: border-box;
+        transition: all .1s ease-in-out;
+
+        img {
+            width: 16rem;
+            box-shadow: 5px -5px 10px #000000;
+            border-radius: 20rem;
+        }
+
+        img:hover {
+            border-radius: 0px;
+            cursor: pointer;
+            transition: 800ms;
+            transform: scale(1.2);
+        }
+
+        h4 {
+            margin-top: 3vh;
+            margin-bottom: 1vh;
+        }
+
+        p {
+            margin-top: .5vh;
+            margin-bottom: 2vh;
+        }
+
+        h3 {
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+        }
+    }
+
+    .main__articles {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        text-align: $comodin;
+        display: $display;
+
+        a {
+            text-decoration: none;
+            color: #5e5e5e;
+            width: 50%;
+        }
+
+        a:hover {
+            width: 240px;
+            transition: 800ms;
+            transform: scale(1.3);
+            background-color: $colorNosotros;
+            color: $colorW;
+            border-radius: 50px;
+        }
+    }
+
+    .main__banner {
+        max-width: auto;
+
+        img {
+            width: 100%;
+            height: 45vh;
+        }
+    }
+
+    .main__whatsap {
+        box-sizing: border-box;
+        text-align: $comodin;
+
+        p {
+            text-align: $comodin;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        #text__envio {
+            font-size: 1.2rem;
+            font-weight: 100;
+        }
+
+        .main__whatsap__button {
+            display: inline-flex;
+            align-items: $comodin;
+            background-color: #34495E;
+            width: 12rem;
+            height: 12vh;
+            border-radius: 25px;
+            margin-bottom: 12vh;
+
+            a {
+                text-decoration: none;
+                color: #000000;
+            }
+
+            img {
+                height: 8vh;
+            }
+        }
+
+        .main__whatsap__button:hover {
+            transform: scale(1.1);
+            transition: 1s;
+            box-shadow: 10px -10px 10px #000000;
+
+            a {
+                color: $colorW;
+                transition: 1.5s;
+            }
+
+        }
+
+    }
+
+    .main__nosotros {
+        background-color: $colorNosotros;
+        max-width: $porcentajeW;
+        box-sizing: border-box;
+
+        h3 {
+            padding: 50px;
+            margin-bottom: 10px;
+            text-align: $comodin;
+            color: $colorW;
+            font-size: 1.5rem;
+        }
+
+        .main__nosotros__contenedor {
+            display: $display;
+            text-align: $comodin;
+            flex-wrap: $fWrap;
+            text-wrap: $fWrap;
+            max-width: 90%;
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
+
+        .main__nosotros__section {
+            width: 20rem;
+
+            img {
+                width: 15rem;
+                border-radius: 100px;
+                box-shadow: 20px 0px 10px #000000;
+            }
+
+            img:hover {
+                border-radius: 0px;
+                cursor: pointer;
+                transition: 800ms;
+
+            }
+
+            p {
+                text-align: $comodin;
+                color: $colorW;
+                font-weight: bold;
+                line-height: 1.5rem;
+            }
+
+            p:last-child {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: $display;
+    justify-content: space-between;
+    flex-wrap: $fWrap;
+    max-width: $porcentajeW;
+
+    .footer__right {
+        align-items: $comodin;
+        text-align: $comodin;
+
+        img {
+            width: 2rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+            transition: 800ms;
+        }
+    }
+
+}
+
