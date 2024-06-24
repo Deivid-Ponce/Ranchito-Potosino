@@ -279,3 +279,55 @@ main {
     }
 
 }
+
+#ContactSection {
+    text-align: center;
+    background-color: #696956;
+
+    h3 {
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+       
+
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 30%;
+        color: #ffffff;
+        font-weight: 600;
+
+    }
+
+    input {
+        border-radius: 20px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    label:hover {
+        transform: scale(1.1);
+        transition: 300ms;
+        cursor: pointer;
+    }
+
+    textarea {
+        border-radius: 10px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    #enviar {
+        background-color: #21c500;
+        border-style: none;
+        border-radius: 20px;
+    }
+
+    #enviar:hover {
+
+        color: #ffffff;
+        font-weight: 600;
+        transform: scale(1.1);
+        transition: 300ms;
+    }
+}

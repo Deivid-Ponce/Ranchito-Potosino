@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="contenedor__header">
+    <header class="contenedor__header" role="banner">
         <article class="descuento__header">
             <p>5% OFF EN PEDIDOS DE $1500 O MAS, VALIDO AL 10 DE MAYO</p>
         </article>
@@ -19,53 +19,55 @@
             <p>El Ranchito Potosino | 44-4474-6138</p>
         </article>
         <article class="nav__header">
-            <a href="Lista_Productos.html">Todos los Productos</a>
+            <a href="Lista_Productos.html" aria-label="Ir a todos los productos">Todos los Productos</a>
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Boxes
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="caja_basica.html">Caja Basica</a></li>
-                    <li><a class="dropdown-item" href="caja+.html">Caja Plus</a></li>
-                    <li><a class="dropdown-item" href="caja_premium.html">Caja Premium</a></li>
-                    <li><a class="dropdown-item" href="lunch.html">Lunch</a></li>
+                    <li><a class="dropdown-item" href="caja_basica.html" aria-label="Ir a caja basica">Caja Basica</a>
+                    </li>
+                    <li><a class="dropdown-item" href="caja+.html" aria-label="Ir a caja plus">Caja Plus</a></li>
+                    <li><a class="dropdown-item" href="caja_premium.html" aria-label="Ir a caja premium">Caja
+                            Premium</a></li>
+                    <li><a class="dropdown-item" href="lunch.html" aria-label="Ir a caja Lunch">Lunch</a></li>
                 </ul>
             </div>
         </article>
         <article class="banner__header">
             <p>VEGETALES Y FRUTAS A DOMICILIO</p>
-            <img src="img/img1.jpg" alt="img1">
+            <img src="img/img1.jpg" alt="imagen de ranchito potosino">
             <p>¡DE LA HUASTECA HASTA TU MESA!</p>
         </article>
     </header>
 
     <main class="main">
         <h1>Productos Destacados</h1>
-        <section class="main__products">
+        <section class="main__products" role="complementary">
             <div class="main__boxes" id="1">
-                <a href="caja_basica.html" target="_blank"><img src="img/caja1.jpg" alt="caja1"></a>
+                <a href="caja_basica.html" target="_blank"><img src="img/caja1.jpg" alt="Caja-basica"></a>
                 <h4>Envio Gratuito</h4>
                 <h3>Caja Básica</h3>
                 <p>$400 MX</p>
             </div>
             <div class="main__boxes" id="2">
-                <a href="caja+.html" target="_blank"><img src="img/caja1.jpg" alt="caja1"></a>
+                <a href="caja+.html" target="_blank"><img src="img/caja1.jpg" alt="Caja-Plus"></a>
                 <h4>Envio Gratuito</h4>
                 <h3>Caja +</h3>
                 <p>$750 MX</p>
             </div>
         </section>
         <br>
-        <section class="main__products">
+        <section class="main__products" role="complementary">
             <div class="main__boxes" id="3">
-                <a href="caja_premium.html" target="_blank"><img src="img/caja1.jpg" alt="caja1"></a>
+                <a href="caja_premium.html" target="_blank"><img src="img/caja1.jpg" alt="caja-Premium"></a>
                 <h4>Envio Gratuito</h4>
                 <h3>Caja Premium</h3>
                 <p>$1000 MX</p>
             </div>
             <div class="main__boxes" id="4">
-                <a href="lunch.html" target="_blank"><img src="img/caja1.jpg" alt="caja1"></a>
+                <a href="lunch.html" target="_blank"><img src="img/caja1.jpg" alt="caja-Lunch"></a>
                 <h4>Envio Gratuito</h4>
                 <h3>Lunch</h3>
                 <p>$450 MX</p>
@@ -73,7 +75,7 @@
         </section>
         <br>
         <article class="main__articles">
-            <a href="Lista_Productos.html">VER TODOS LOS ARTICULOS</a>
+            <a href="Lista_Productos.html" aria-label="Ir a todos los productos">VER TODOS LOS ARTICULOS</a>
         </article>
         <div class="main__banner">
             <img src="img/banner.jpg" alt="">
@@ -82,9 +84,9 @@
         <section class="main__whatsap">
             <p>¡También puedes realizar tus pedidos por Whatsapp!</p>
             <p id="text__envio">Envíanos tu lista de la semana</p>
-            <div class="main__whatsap__button">
-                <img src="img/whatsap.png" alt="">
-                <a href="https://api.whatsapp.com/" target="_blank">
+            <div class="main__whatsap__button" role="button">
+                <img src="img/whatsap.png" alt="logo-whatsapp">
+                <a href="https://api.whatsapp.com/" target="_blank" aria-label="contactar-mediante-whatsapp">
                     <p>Enviar</p>
                 </a>
             </div>
@@ -94,7 +96,7 @@
             <h3>Nosotros</h3>
             <article class="main__nosotros__contenedor">
                 <div class="main__nosotros__section">
-                    <img src="img/frutas_nosotros.jpg" alt="frutas_nosotros">
+                    <img src="img/frutas_nosotros.jpg" alt="imagen-nuestra-mision">
                     <br>
                     <br>
                     <p>Mision</p>
@@ -103,7 +105,7 @@
                         hasta su mesa.</p>
                 </div>
                 <div class="main__nosotros__section">
-                    <img src="img/carrito_nosotros.jpg" alt="carrito_nosotros">
+                    <img src="img/carrito_nosotros.jpg" alt="imagen-servicio-domicilio">
                     <br>
                     <br>
                     <p>Servicio a domicilio</p>
@@ -114,12 +116,13 @@
                     <p>Horario: 10:00am - 20:00pm</p>
                 </div>
                 <div class="main__nosotros__section">
-                    <img src="img/mango_nosotros.jpg" alt="mango_nosotros">
+                    <img src="img/mango_nosotros.jpg" alt="imagen-sobre-compromiso">
                     <br>
                     <br>
                     <p>Compromiso</p>
                     <br>
-                    <p>Calidad en todos nuestros productos, alianzas con productores mexicanos y garantía de satisfacción.
+                    <p>Calidad en todos nuestros productos, alianzas con productores mexicanos y garantía de
+                        satisfacción.
                     </p>
                 </div>
             </article>
@@ -131,10 +134,33 @@
             <p>Copyright © 2024 El Ranchito Potosino Todos los derechos reservados por el abuelo Daniel.</p>
         </article>
         <article class="footer__right">
-            <a href="https://es-la.facebook.com/" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><img src="img/facebook.png" alt="facebook"
+                    aria-label="Ir a nuestro facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="instagram"
+                    aria-label="Ir a nuestro Instagram"></a>
         </article>
     </footer>
+
+    <section id="ContactSection">
+        <h3>Contacto</h3>
+        <form>
+
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" required>
+            <br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="pedido">Pedido</label>
+            <textarea name="pedido" id="pedido" required></textarea>
+            <br>
+            <button type="submit" id="enviar" aria-label="boton-enviar" role="button">Enviar</button>
+            <br>
+
+        </form>
+    </section>
+
+    </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

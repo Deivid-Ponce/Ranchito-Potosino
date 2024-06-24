@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="scss/main.css">
     <script src="JS/functions.js"></script>
     <title>Caja Basica</title>
-
 </head>
 
 <body>
@@ -19,7 +18,7 @@
             <p>El Ranchito Potosino | 4444746138</p>
         </article>
         <article class="nav__header">
-            <a href="index.html">Inicio</a>
+            <a href="index.html" aria-label="Ir a inicio">Inicio</a>
         </article>
         <article class="banner__header">
             <p>VEGETALES Y FRUTAS A DOMICILIO</p>
@@ -32,29 +31,30 @@
         <br>
         <h4>ENVÍO GRATUITO</h4>
         <br>
-        <img src="img/caja1.jpg" alt="caja1">
+        <img src="img/caja1.jpg" alt="Imagen caja basica">
         <br>
         <br>
         <p id="Cantidad">Cantidad</p>
         <br>
-        <textarea name="" id="" cols="10" rows="1" onkeyup="mostrar(this.value)" pattern="[0-9]*"></textarea>
+        <textarea name="Ingresa-cantidad" id="Ingresa-cantidad" role="textbox" cols="10" rows="1" onkeyup="mostrar(this.value)" pattern="[0-9]*"></textarea>
         <br>
         <div id="resultado_caja_basica"></div>
         <br>
         <p style="color: #ff0000; font-weight: 600;">Contenido</p>
-
-        <ul>
-            <li>Aguacate .500 gms</li>
-            <li>Cebolla .500 gms</li>
-            <li>Guayaba .500 gms</li>
-            <li>Manzana gala .500 gms</li>
-            <li>Naranja 2kg</li>
-            <li>Papa alfa 1kg</li>
-            <li>Plátano 1kg</li>
-            <li>Zanahoria .500 gms</li>
-            <li>Espinaca 100 gms</li>
-            <li>Ajo Blanco 1 pza</li>
+        <div>
+        <ul role="list">
+            <li aria-label="Aguacate">Aguacate .500 gms</li>
+            <li aria-label="Cebolla" >Cebolla .500 gms</li>
+            <li aria-label="Guayaba">Guayaba .500 gms</li>
+            <li aria-label="Manzana gala">Manzana gala .500 gms</li>
+            <li aria-label="Naranja">Naranja 2kg</li>
+            <li aria-label="Papa alfa">Papa alfa 1kg</li>
+            <li aria-label="Platano">Plátano 1kg</li>
+            <li aria-label="Zanahoria">Zanahoria .500 gms</li>
+            <li aria-label="Espinaca">Espinaca 100 gms</li>
+            <li aria-label="Ajo Blanco">Ajo Blanco 1 pza</li>
         </ul>
+        </div>
 
     </main>
     <footer class="footer" id="caja_basica1">
@@ -62,8 +62,8 @@
             <p>Copyright © 2024 El Ranchito Potosino Todos los derechos reservados por el abuelo.</p>
         </article>
         <article class="footer__right">
-            <a href="https://es-la.facebook.com/" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><img src="img/facebook.png" alt="Ir a pagina de facebook" aria-label="Ir a pagina de facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="Ir a pagina de instagram" aria-label="Ir a pagina de instagram"></a>
         </article>
     </footer>
 

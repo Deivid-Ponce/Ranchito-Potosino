@@ -4,11 +4,9 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
-
 .main__caja__basica img {
   width: 20rem;
 }
-
 .main__caja__basica #Cantidad {
   color: #ffffff;
   background-color: #696956;
@@ -16,16 +14,13 @@
   border-radius: 10px;
   font-weight: bold;
 }
-
 .main__caja__basica ul {
   list-style: none;
 }
-
 .main__caja__basica ul li {
   margin: 1rem;
   font-weight: bold;
 }
-
 .main__caja__basica h3 {
   color: #003669;
 }
@@ -75,7 +70,6 @@
   flex-wrap: wrap;
   text-align: center;
 }
-
 .main_lista_productos .main_articulo img {
   width: 14rem;
 }
@@ -85,7 +79,6 @@
   flex-wrap: wrap;
   text-align: center;
 }
-
 .main_lista_productos2 .main_articulo img {
   width: 14rem;
 }
@@ -95,7 +88,6 @@
   flex-wrap: wrap;
   text-align: center;
 }
-
 .main_lista_productos3 .main_articulo img {
   width: 15rem;
 }
@@ -105,7 +97,6 @@
   flex-wrap: wrap;
   text-align: center;
 }
-
 .main_lista_productos4 .main_articulo img {
   width: 15rem;
 }
@@ -128,7 +119,6 @@
   font-weight: bold;
   letter-spacing: 0.1em;
 }
-
 .contenedor__header .titulo__header {
   font-size: 1.2rem;
   text-align: center;
@@ -136,19 +126,16 @@
   margin-bottom: 2.5vh;
   letter-spacing: 0.25em;
 }
-
 .contenedor__header .nav__header {
   background-color: #f2f2f2;
   height: 10vh;
   display: flex;
   align-items: center;
 }
-
 .contenedor__header .nav__header a {
   text-decoration: none;
   color: #696956;
 }
-
 .contenedor__header .nav__header a:hover {
   transform: scale(1.1);
   transition: 300ms;
@@ -156,17 +143,14 @@
   color: #696956;
   font-weight: bold;
 }
-
 .contenedor__header .banner__header {
   max-width: 100%;
   text-align: center;
 }
-
 .contenedor__header .banner__header img {
   width: 80%;
   height: 80vh;
 }
-
 .contenedor__header .banner__header p {
   font-size: 1.2rem;
   margin-top: 3.5vh;
@@ -174,7 +158,6 @@
   color: #5e5e5e;
   letter-spacing: 0.2rem;
 }
-
 .contenedor__header .banner__header p:last-child {
   margin-top: 8vh;
   margin-bottom: 8vh;
@@ -184,12 +167,10 @@
 main {
   max-width: 100%;
 }
-
 main h1 {
   text-align: center;
   margin-bottom: 15vh;
 }
-
 main .main__products {
   max-width: 80%;
   display: flex;
@@ -198,48 +179,40 @@ main .main__products {
   box-sizing: border-box;
   transition: all 0.1s ease-in-out;
 }
-
 main .main__products img {
   width: 16rem;
   box-shadow: 5px -5px 10px #000000;
   border-radius: 20rem;
 }
-
 main .main__products img:hover {
   border-radius: 0px;
   cursor: pointer;
   transition: 800ms;
   transform: scale(1.2);
 }
-
 main .main__products h4 {
   margin-top: 3vh;
   margin-bottom: 1vh;
 }
-
 main .main__products p {
   margin-top: 0.5vh;
   margin-bottom: 2vh;
 }
-
 main .main__products h3 {
   margin-top: 1vh;
   margin-bottom: 1vh;
 }
-
 main .main__articles {
   margin-top: 2rem;
   margin-bottom: 3rem;
   text-align: center;
   display: flex;
 }
-
 main .main__articles a {
   text-decoration: none;
   color: #5e5e5e;
   width: 50%;
 }
-
 main .main__articles a:hover {
   width: 240px;
   transition: 800ms;
@@ -248,21 +221,17 @@ main .main__articles a:hover {
   color: #ffffff;
   border-radius: 50px;
 }
-
 main .main__banner {
   max-width: auto;
 }
-
 main .main__banner img {
   width: 100%;
   height: 45vh;
 }
-
 main .main__whatsap {
   box-sizing: border-box;
   text-align: center;
 }
-
 main .main__whatsap p {
   text-align: center;
   margin-top: 3rem;
@@ -270,12 +239,10 @@ main .main__whatsap p {
   font-size: 1.5rem;
   font-weight: 700;
 }
-
 main .main__whatsap #text__envio {
   font-size: 1.2rem;
   font-weight: 100;
 }
-
 main .main__whatsap .main__whatsap__button {
   display: inline-flex;
   align-items: center;
@@ -285,33 +252,27 @@ main .main__whatsap .main__whatsap__button {
   border-radius: 25px;
   margin-bottom: 12vh;
 }
-
 main .main__whatsap .main__whatsap__button a {
   text-decoration: none;
   color: #000000;
 }
-
 main .main__whatsap .main__whatsap__button img {
   height: 8vh;
 }
-
 main .main__whatsap .main__whatsap__button:hover {
   transform: scale(1.1);
   transition: 1s;
   box-shadow: 10px -10px 10px #000000;
 }
-
 main .main__whatsap .main__whatsap__button:hover a {
   color: #ffffff;
   transition: 1.5s;
 }
-
 main .main__nosotros {
   background-color: #696956;
   max-width: 100%;
   box-sizing: border-box;
 }
-
 main .main__nosotros h3 {
   padding: 50px;
   margin-bottom: 10px;
@@ -319,7 +280,6 @@ main .main__nosotros h3 {
   color: #ffffff;
   font-size: 1.5rem;
 }
-
 main .main__nosotros .main__nosotros__contenedor {
   display: flex;
   text-align: center;
@@ -329,30 +289,25 @@ main .main__nosotros .main__nosotros__contenedor {
   flex-direction: row;
   justify-content: space-around;
 }
-
 main .main__nosotros .main__nosotros__section {
   width: 20rem;
 }
-
 main .main__nosotros .main__nosotros__section img {
   width: 15rem;
   border-radius: 100px;
   box-shadow: 20px 0px 10px #000000;
 }
-
 main .main__nosotros .main__nosotros__section img:hover {
   border-radius: 0px;
   cursor: pointer;
   transition: 800ms;
 }
-
 main .main__nosotros .main__nosotros__section p {
   text-align: center;
   color: #ffffff;
   font-weight: bold;
   line-height: 1.5rem;
 }
-
 main .main__nosotros .main__nosotros__section p:last-child {
   margin-bottom: 50px;
 }
@@ -365,22 +320,59 @@ main .main__nosotros .main__nosotros__section p:last-child {
   flex-wrap: wrap;
   max-width: 100%;
 }
-
 .footer .footer__right {
   align-items: center;
   text-align: center;
 }
-
 .footer .footer__right img {
   width: 2rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
   cursor: pointer;
 }
-
 .footer .footer__right img:hover {
   transform: scale(1.2);
   transition: 800ms;
 }
 
-/*# sourceMappingURL=main.css.map */
+#ContactSection {
+  text-align: center;
+  background-color: #696956;
+}
+#ContactSection h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+#ContactSection form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  color: #ffffff;
+  font-weight: 600;
+}
+#ContactSection input {
+  border-radius: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+#ContactSection label:hover {
+  transform: scale(1.1);
+  transition: 300ms;
+  cursor: pointer;
+}
+#ContactSection textarea {
+  border-radius: 10px;
+  background-color: #000000;
+  color: #ffffff;
+}
+#ContactSection #enviar {
+  background-color: #21c500;
+  border-style: none;
+  border-radius: 20px;
+}
+#ContactSection #enviar:hover {
+  color: #ffffff;
+  font-weight: 600;
+  transform: scale(1.1);
+  transition: 300ms;
+}/*# sourceMappingURL=main.css.map */
